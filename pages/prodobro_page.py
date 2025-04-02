@@ -26,4 +26,4 @@ class ProDobroPage(BasePage):
     def click_klyuch_dobra(self):
         self.page.get_by_text(self.locators.KLYUCH_DOBRA_TEXT).click()
     def click_fund_site(self):
-        self.page.locators.FUND_SITE_LINK.click()
+        self.page.get_by_text(self.locators.FUND_SITE_LINK).click()
