@@ -1,5 +1,4 @@
 from playwright.sync_api import Playwright, sync_playwright,expect
-from pages.prodobro_page import ProDobroPage
 from steps.prodobro_steps import ProDobroSteps
 
 
